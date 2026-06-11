@@ -1,10 +1,10 @@
-package kr.arcadia.arcposed
+package kr.acda.arcposed
 
 import cc.arccore.api.module.BaseModule
 import cc.arccore.api.module.ModuleSpec
 import cc.arccore.runtime.context.RuntimeModuleContext
-import kr.arcadia.arcposed.service.SqliteStorageService
-import kr.arcadia.arcposed.service.SqliteStorageServiceImpl
+import kr.acda.arcposed.service.SqliteStorageService
+import kr.acda.arcposed.service.SqliteStorageServiceImpl
 
 /**
  * Exposed(ORM) 기반 SQLite 저장소를 다른 모듈에 서비스로 제공하는 모듈.
@@ -27,7 +27,7 @@ import kr.arcadia.arcposed.service.SqliteStorageServiceImpl
         "org.jetbrains.exposed:exposed-jdbc:1.3.0",
         "org.jetbrains.exposed:exposed-dao:1.3.0"
     ],
-    exports = ["kr.arcadia.arcposed.service"]
+    exports = ["kr.acda.arcposed.service"]
 )
 class ArcposedModule : BaseModule() {
 

@@ -1,4 +1,4 @@
-package kr.arcadia.arcposed.service
+package kr.acda.arcposed.service
 
 import org.jetbrains.exposed.v1.core.Table
 import org.jetbrains.exposed.v1.jdbc.JdbcTransaction

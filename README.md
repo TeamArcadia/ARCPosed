@@ -6,8 +6,8 @@ ARCCore 프레임워크 기반 Minecraft Paper 모듈. **Exposed(ORM) + SQLite**
 
 - 리포: `TeamArcadia/ARCPosed`
 - 모듈 id: `arcposed`
-- 패키지: `kr.arcadia.arcposed`
-- exports: `kr.arcadia.arcposed.service`
+- 패키지: `kr.acda.arcposed`
+- exports: `kr.acda.arcposed.service`
 - Exposed `1.3.0` (v1 네임스페이스), sqlite-jdbc `3.49.1.0`
 
 ## 디렉터리 구조
@@ -54,12 +54,12 @@ dependencies {
 테이블을 코드로 선언 → 컬럼 타입이 곧 스키마. SQL 한 줄 없이 CRUD.
 
 ```kotlin
-package kr.arcadia.economy
+package kr.acda.economy
 
 import cc.arccore.api.module.BaseModule
 import cc.arccore.api.module.ModuleSpec
 import cc.arccore.runtime.context.RuntimeModuleContext
-import kr.arcadia.arcposed.service.SqliteStorageService
+import kr.acda.arcposed.service.SqliteStorageService
 import org.jetbrains.exposed.v1.core.*                  // eq 등 top-level 연산자 (1.0 권장)
 import org.jetbrains.exposed.v1.core.dao.id.IntIdTable
 import org.jetbrains.exposed.v1.jdbc.insert

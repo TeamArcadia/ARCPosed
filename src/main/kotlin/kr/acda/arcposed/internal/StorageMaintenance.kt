@@ -1,9 +1,9 @@
-package kr.arcadia.arcposed.internal
+package kr.acda.arcposed.internal
 
 import cc.arccore.api.di.ArcComponent
 import cc.arccore.api.di.ArcSingleton
 import cc.arccore.api.di.Inject
-import kr.arcadia.arcposed.service.SqliteStorageService
+import kr.acda.arcposed.service.SqliteStorageService
 
 /**
  * 모듈 내부 객체 그래프에서 서비스를 주입받는 예시 컴포넌트.

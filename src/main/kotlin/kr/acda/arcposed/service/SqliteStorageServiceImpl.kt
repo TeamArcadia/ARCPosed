@@ -1,4 +1,4 @@
-package kr.arcadia.arcposed.service
+package kr.acda.arcposed.service
 
 import cc.arccore.api.module.ModuleLogger
 import org.jetbrains.exposed.v1.core.Table
