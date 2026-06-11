@@ -1,8 +1,8 @@
 package kr.acda.arcposed.internal
 
-import cc.arccore.api.di.ArcComponent
-import cc.arccore.api.di.ArcSingleton
-import cc.arccore.api.di.Inject
+import kr.acda.arccore.api.di.ArcComponent
+import kr.acda.arccore.api.di.ArcSingleton
+import kr.acda.arccore.api.di.Inject
 import kr.acda.arcposed.service.SqliteStorageService
 
 /**

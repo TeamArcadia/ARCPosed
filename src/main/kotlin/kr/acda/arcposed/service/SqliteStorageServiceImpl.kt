@@ -1,6 +1,6 @@
 package kr.acda.arcposed.service
 
-import cc.arccore.api.module.ModuleLogger
+import kr.acda.arccore.api.module.ModuleLogger
 import org.jetbrains.exposed.v1.core.Table
 import org.jetbrains.exposed.v1.jdbc.Database
 import org.jetbrains.exposed.v1.jdbc.JdbcTransaction
